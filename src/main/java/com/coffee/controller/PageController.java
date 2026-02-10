@@ -10,4 +10,7 @@ public class PageController {
 
     @GetMapping("/second")
     public String second() { return "second"; }
+
+    @GetMapping("/third")
+    public String third() { return "third"; }
 }
